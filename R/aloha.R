@@ -21,6 +21,8 @@ say_aloha <- function(name, color) {
   else if (color == "green") {
       cat(crayon::bgGreen(message))}
   else {
-    print("Choose green or blue for background color.")
+    print(paste("Ahh",
+          emo::ji("nut"),
+          "'s! Choose green or blue for background color."))
       }
     }
